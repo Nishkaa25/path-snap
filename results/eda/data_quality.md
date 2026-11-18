@@ -30,4 +30,6 @@ Partitions covered: train (80 trips) and student_test (10 trips). Source tables:
 ## Figures
 - report/figures/map_normal_overview.png, map_normal_zoomed.png: trip 00000001 (train), GPS on the reference route.
 - report/figures/map_trip33_gps_blobs.png: trip 00000033 (train), dense GPS blobs off the route.
+- report/figures/map_trip43_side_offset.png: trip 00000043 (train), GPS runs alongside the reference route with a small side offset.
+- report/figures/map_trip54_gps_blobs.png: trip 00000054 (train), moving part follows the route; large stationary GPS blobs lie off the route and hold most of the points.
 - Generator: src/viz/make_eda_maps.py, src/viz/folium_map.py (HTML in maps/).
