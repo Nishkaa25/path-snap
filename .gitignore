@@ -1,6 +1,4 @@
-/data/
-__pycache__/
-
+ HEAD
 # PathSnap ML artifacts
 /models/
 *.joblib
@@ -19,8 +17,16 @@ __pycache__/
 # Ignore other CSV files by default
 *.csv
 
+# EDA cache
+results/eda/eda_cache.npz
+
 # Python artifacts
 *.pyc
 __pycache__/
 .venv/
 venv/
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+ 0cd1b09 (Add HMM graph, Viterbi decoder, API skeleton, README)
