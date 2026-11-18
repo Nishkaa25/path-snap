@@ -1,3 +1,26 @@
-/data/
-__pycache__/
+# PathSnap ML artifacts
+/models/
+*.joblib
+*.pkl
+
+# Ignore results by default
+/results/
+
+# Allow final ML evaluation results
+!/results/
+!/results/ml/
+!/results/ml/final_metrics/
+!/results/ml/final_metrics/*.csv
+!/results/ml/final_metrics/*.json
+
+# Ignore other CSV files by default
+*.csv
+
+# EDA cache
 results/eda/eda_cache.npz
+
+# Python artifacts
+*.pyc
+__pycache__/
+.venv/
+venv/
